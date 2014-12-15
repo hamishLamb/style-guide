@@ -1,0 +1,11 @@
+{
+	"name": "hamishLamb/style-guide",
+	"type": "package",
+	"description": "Provides ability to use a hologram styleguide with minimal setup",
+	"authors": [
+		{
+			"name": "Hamish Lamb",
+			"email": "hamish.lamb@heyday.co.nz"
+		}
+	]
+}
