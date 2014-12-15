@@ -1,6 +1,6 @@
 {
 	"name": "hamishLamb/style-guide",
-	"type": "package",
+	"type": "silverstripe-module",
 	"description": "Provides ability to use a hologram styleguide with minimal setup",
 	"authors": [
 		{
