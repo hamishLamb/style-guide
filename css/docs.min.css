@@ -216,6 +216,11 @@ body {
   background-color: #36639e;
   background-repeat: repeat-x;
 }
+.bs-docs-header h2 {
+  font-size: 52px;
+  color: white;
+  font-weight: bold;
+}
 
 /* Masthead (headings and download button) */
 .bs-docs-masthead .bs-docs-booticon {
@@ -555,6 +560,8 @@ body {
   font-size: 13px;
   font-weight: 500;
   color: #999;
+  text-decoration: none;
+  border-left: 1px solid transparent;
 }
 .bs-docs-sidebar .nav > li > a:hover,
 .bs-docs-sidebar .nav > li > a:focus {
@@ -1567,60 +1574,69 @@ h1[id] {
 
 
  .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
  }
  .container {
-	width: 998px;
+  width: 998px;
  }
  body {
-	margin: 0px;
+  margin: 0px;
  }
  .exampleOutput {
- 	border-top-right-radius: 4px;
- 	border-top-left-radius: 4px;
- 	box-shadow: 0px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: 0px;
  }
  .highlight {
-	margin-top: -16px;
-	margin-right: 0;
-	margin-left: 0;
-	border-width: 1px;
-	border-bottom-right-radius: 4px;
-	border-bottom-left-radius: 4px;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
-	padding: 9px 14px;
-	margin-bottom: 14px;
-	background-color: #f7f7f9;
-	border: 1px solid #e1e1e8;
-	border-top: 0px;
+  margin-top: -16px;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 1px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  padding: 9px 14px;
+  margin-bottom: 14px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-top: 0px;
  }
  .codeBlock {
- 	clear: both;
- 	position: relative;
- 	top: -15px;
- 	margin: 0 15px 0 -15px;
+  clear: both;
+  position: relative;
+  top: -15px;
+  margin: 0 15px 0 -15px;
  }
  .wrapper {
- 	background: none !important;
+  background: none !important;
  }
 
  @media screen and (min-width: 992px) {
-	.col-md-9 {
-	width: 75%;
-	float: left;
-	}
-	.col-md-3 {
-	width: 25%;
-	float: left;
-	}
+  .col-md-9 {
+  width: 75%;
+  float: left;
+  }
+  .col-md-3 {
+  width: 25%;
+  float: left;
+  }
 }
 ul {
-	list-style-type: none;
-	padding: 0px;
-	margin-top: 10px;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .exampleOutput {
+    margin: 0px;
+  }
+  .codeBlock {
+    margin: 0px;
+  }
 }
