@@ -1,0 +1,37 @@
+
+					</div>
+					<div class="col-md-3">
+						<div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+							<ul class="nav bs-docs-sidenav">
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<script>
+		(function() {
+
+			var buildMenu = function( el ) {
+				var nav = document.querySelectorAll('.nav');
+				var id = el.id;
+				var text = el.innerHTML;
+				var li = document.createElement('li');
+				var a = document.createElement('a');
+				a.href = '#' + id;
+				a.innerHTML = text;
+				li.appendChild( a );
+				nav[0].appendChild( li );
+			}
+
+			var h1 = document.querySelectorAll('h1');
+			for (var i = 0; i < h1.length; i++) {
+				buildMenu( h1[i] );
+			}
+		})();
+	</script>
+
+	</body>
+</html>
