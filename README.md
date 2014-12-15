@@ -5,7 +5,8 @@ A small style guide repo for setting up hologram
 
 ### Getting set up
 
-First step is to cd into the root of the project and run 'gem install hologram'.
+If the project hasn't already been set up, copy the Gemfile and hologram_config.yml files from style-guide/config into the root directory.
+The next step is to cd into the root of the project and run 'gem install hologram'.
 If you use bundler, simply run 'bundle' instead.
 
 
