@@ -7,5 +7,7 @@
 			"name": "Hamish Lamb",
 			"email": "hamish.lamb@heyday.co.nz"
 		}
-	]
+	],
+	"require": {
+	}
 }
