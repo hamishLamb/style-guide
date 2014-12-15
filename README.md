@@ -3,16 +3,22 @@ style-guide
 
 A small style guide repo for setting up hologram
 
-### HOW TO RUN HOLOGRAM
+### Getting set up
+
+First step is to cd into the root of the project and run 'gem install hologram'.
+If you use bundler, simply run 'bundle' instead.
+
+
+### How to run Hologram
 
 Hologram is super easy to run, and it doesn't require too much effort to set up a cool style guide.
 Simply cd into the root directory of the project and run 'hologram' - done. 
 Go to project.dev/style-guide/index.html to view the style-guide
 
 
-### HOW TO ADD TO THE STYLE GUIDE
+### How to add to the style guide
 
-Adding to the style guide is so freaking easy. In your module less file, at the top of the file add your documentation:
+Adding to the style guide is so freaking easy. In your module.less files, at the top of the file add your documentation:
 
 /*doc
 ---
