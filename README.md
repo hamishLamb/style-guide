@@ -20,9 +20,9 @@ title: Alert
 name: alert
 category: basics
 ---
-```html_example
+ ```html_example
     <div class='alert'>Hello</div>
-```
+ ```
 */
 
 Make sure that you run 'hologram' from the root of the project every time you make a change to make sure that the guide itself has been updated.
