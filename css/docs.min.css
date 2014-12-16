@@ -1174,7 +1174,7 @@ h1[id] {
   margin-bottom: 0;
   font-size: 14px;
   word-break: normal;
-  white-space: nowrap;
+  white-space: pre;
   background-color: transparent;
   border: 0;
 }
