@@ -21,15 +21,15 @@ Go to project.dev/style-guide/index.html to view the style-guide
 
 Adding to the style guide is so freaking easy. In your module.less files, at the top of the file add your documentation:
 
-/*doc
----
-title: Alert
-name: alert
-category: basics
----
- ```html_example
-    <div class='alert'>Hello</div>
- ```
-*/
+    /*doc
+    ---
+    title: Alert
+    name: alert
+    category: basics
+    ---
+     ```html_example
+        <div class='alert'>Hello</div>
+     ```
+    */
 
 Make sure that you run 'hologram' from the root of the project every time you make a change to make sure that the guide itself has been updated.
