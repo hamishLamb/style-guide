@@ -25,6 +25,17 @@
 			for (var i = 0; i < h1.length; i++) {
 				buildMenu( h1[i] );
 			}
+
+			function toggleClass(){
+				document.querySelector('.body').classList.toggle('active-sidebar');
+			}
+			document.querySelector('.hamburger').addEventListener('mousedown', toggleClass );
+
+			navlist = document.querySelector('.bs-docs-sidenav').getElementsByTagName('a');
+			for (i = 0; i < navlist.length; i++) {
+				document.querySelector('.bs-docs-sidenav').getElementsByTagName('a')[i].addEventListener('mousedown', toggleClass );
+			}
+
 		})();
 	</script>
 
